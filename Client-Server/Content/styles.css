@@ -1,0 +1,82 @@
+﻿body {
+    font-family: 'segoe ui', calibri, helvetica, arial, sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    color: #185C22;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+}
+
+fieldset {
+    width: 300px;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 1px;
+}
+
+legend {
+    font-weight: 700;
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-variant: small-caps;
+    font-weight: 600;
+    color: #304232;
+}
+
+p {
+    clear: left;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+label {
+    display: inline-block;
+    float: left;
+    width: 40%;
+}
+
+input, textarea {
+    background: #EAEEEB;
+    border: solid 1px #304232;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: inherit;
+    line-height: 1.8;
+    margin: 0 0 0 auto;
+    padding: 0 5px;
+    width: 60%;
+}
+
+textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    width: auto;
+    background: #C9D8CD;
+}
+
+input[type=checkbox] {
+    width: auto;
+    display: inline;
+}
+
+.buttons {
+    text-align: right;
+}
+
+.send-type label {
+    display: inline;
+    margin-left: .3em;
+}
+
+.message {
+    font-weight: 700;
+    text-align: center;
+}
